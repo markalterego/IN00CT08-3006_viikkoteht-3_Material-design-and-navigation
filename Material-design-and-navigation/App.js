@@ -20,7 +20,12 @@ export default function App() {
     return (
         <PaperProvider theme={theme}>
             <NavigationContainer theme={theme}>
-                <Stack.Navigator initialRouteName='Home' screenOptions={{header: (navigation, back) => <MyAppbar {...navigation} {...back} />}} >
+                <Stack.Navigator 
+                    initialRouteName='Home' 
+                    screenOptions={{
+                        header: (props) => <MyAppbar {...props} /> // <-- Ajetaan MyAppbar näytön headeriin
+                    }}
+                >
                     <Stack.Screen name='Home' component={HomeScreen} />
                     <Stack.Screen name='Second' component={SecondScreen} />
                 </Stack.Navigator>

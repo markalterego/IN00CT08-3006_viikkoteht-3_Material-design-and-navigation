@@ -5,7 +5,7 @@ import { Text } from "react-native-paper";
 export default function HomeScreen() {
     return(
         <View style={styles.container}>
-            <Text style={styles.text}>Hello! This is officially the HomeScreen function screen thingy BTW!!!</Text>
+            <Text style={styles.text}>Hello! This is officially the HomeScreen function!!!</Text>
         </View>
     );
 };

@@ -5,7 +5,7 @@ import { Text } from "react-native-paper";
 export default function SecondScreen() {
     return(
         <View style={styles.container}>
-            <Text style={styles.text}>This is officially the SecondScreen! By arriving here, you've officially become one of the Cooler people! Great job!</Text>
+            <Text style={styles.text}>Believe it or not this is the SecondScreen!</Text>
         </View>
     );
 };
